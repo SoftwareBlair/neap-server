@@ -14,3 +14,10 @@
 1. Add a controler (optional)
 
 ## Deployment
+
+1. Setup Heroku
+1. Push to Heroku
+1. Setup db
+1. Run migrations
+1. Run seeds
+1. Heroku restart
