@@ -1,7 +1,14 @@
-# Token-Based Authentication with Node
+# Neap Server
 
-## Getting Started
+> This is my first server for learning to build a NEAP app.
 
-1. Fork/Clone
-1. Install dependencies
-1. `gulp`
+## Objectives
+
+1. Set up Database
+ - Create and Apply migrations
+1. Set up knex.js queries
+1. Set up Environment Variables
+1. Set up Route Configurations
+1. Create a file in routes folder for that resource
+1. Add route handlers for that resource
+1. Add a controler (optional)
