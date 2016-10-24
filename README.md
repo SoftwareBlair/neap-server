@@ -16,8 +16,13 @@
 ## Deployment
 
 1. Setup Heroku
+  - `heroku create`
 1. Push to Heroku
+  - `git push heroku master`
 1. Setup db
+  - `heroku addons:create heroku-postgresql:hobby-dev`
 1. Run migrations
+  - `heroku run knex migrate:latest --env production`
 1. Run seeds
+  - `heroku run knex seed:run --env production`
 1. Heroku restart
