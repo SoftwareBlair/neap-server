@@ -2,23 +2,24 @@
 
 > This is my first server for learning to build a NEAP app.
 
+[Heroku API](https://serene-springs-41881.herokuapp.com/coffee/)
+
 ## Development
 
-1. Set up Database
- - Create and Apply migrations
-1. Set up knex.js queries
-1. Set up Environment Variables
-1. Set up Route Configurations
-1. Create a file in routes folder for that resource
-1. Add route handlers for that resource
-1. Add a controler (optional)
+1. Set up database
+  - create and apply migration
+  - create and apply seed
+1. set up route config
+1. create file in routes folder for that resource
+1. add route handlers for that resource
+1. Set up knex queries
+1. set up env variables
+1. add control (optional)
 
 ## Deployment
 
 1. Setup Heroku
-  - `heroku create`
 1. Push to Heroku
-  - `git push heroku master`
 1. Setup db
   - `heroku addons:create heroku-postgresql:hobby-dev`
 1. Run migrations
